@@ -1,0 +1,25 @@
+class Solution:
+    def reverseVowels(self, s):
+        vowels = set("aeiouAEIOU")
+        s = list(s)
+
+        left = 0
+        right = len(s) - 1
+
+        while left < right:
+
+            # Find vowel from the left
+            while left < right and s[left] not in vowels:
+                left += 1
+
+            # Find vowel from the right
+            while left < right and s[right] not in vowels:
+                right -= 1
+
+            # Swap vowels
+            s[left], s[right] = s[right], s[left]
+
+            left += 1
+            right -= 1
+
+        return "".join(s)
