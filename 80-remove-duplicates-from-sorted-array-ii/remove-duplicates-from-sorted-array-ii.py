@@ -4,6 +4,7 @@ class Solution:
             return len(nums)
 
         k = 2
+        h = 9
 
         for i in range(2, len(nums)):
             if nums[i] != nums[k - 2]:
