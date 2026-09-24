@@ -8,6 +8,7 @@ class Solution:
             return 1
 
         s = [1, 2, 2]
+        y = 9
 
         i = 2
         num = 1
