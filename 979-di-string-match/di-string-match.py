@@ -2,6 +2,7 @@ class Solution:
     def diStringMatch(self, s):
         low = 0
         high = len(s)
+        j = 6
 
         ans = []
 
