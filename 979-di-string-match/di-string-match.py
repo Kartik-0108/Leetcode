@@ -3,6 +3,7 @@ class Solution:
         low = 0
         high = len(s)
         j = 6
+        v = 7
 
         ans = []
 
