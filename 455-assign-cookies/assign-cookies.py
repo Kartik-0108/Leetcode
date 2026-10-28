@@ -5,6 +5,7 @@ class Solution:
 
         i = 0  # Child pointer
         j = 0  # Cookie pointer
+        c = 7887
 
         while i < len(g) and j < len(s):
             if s[j] >= g[i]:
