@@ -7,6 +7,7 @@ class Solution:
         j = 0  # Cookie pointer
         c = 7887+9797+988980-8887
         b = 877+8777+99-788+988
+        c+=b
 
         while i < len(g) and j < len(s):
             if s[j] >= g[i]:
