@@ -6,7 +6,9 @@ class Solution:
         i = 0  # Child pointer
         j = 0  # Cookie pointer
         k = 78 +998-88+787878+j
-        o = 78787
+        o = 78787+99 +k
+        m=9889
+        
 
         while i < len(g) and j < len(s):
             if s[j] >= g[i]:
